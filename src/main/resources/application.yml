@@ -1,4 +1,3 @@
-
 #debug: true
 #debug: false
 
@@ -54,9 +53,4 @@ spring:
         hbm2ddl:
           # drop-create create update validate none
           auto: update
-        id:
-          # Must be false or Envers stops working!
-          new_generator_mappings: false
-        physical_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
-        implicit_naming_strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
     show-sql: true
